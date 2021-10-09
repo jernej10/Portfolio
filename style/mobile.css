@@ -1,0 +1,69 @@
+@media only screen and (max-width: 657px) {
+  .text-container {
+    left: 50px;
+  }
+  .text-container p {
+    font-size: 25px;
+  }
+  .about-me-text {
+    margin-left: 50px !important;
+  }
+  #projects-container {
+    margin-left: 50px;
+  }
+  .projects-text {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 908px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .big-card {
+    margin-top: 0px;
+  }
+  .card {
+    width: 250px;
+    height: 300px;
+    margin-bottom: 25px;
+  }
+  .svg-programming {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1258px) {
+  .about-me {
+    flex-direction: column;
+  }
+  .about-me-text {
+    left: 0;
+    width: 60%;
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 1380px) {
+  #projects-container {
+    grid-template-columns: 1fr;
+  }
+  .project {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  .project {
+    width: 80%;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 536px) {
+  .project {
+    width: 60%;
+    height: 350px;
+  }
+}
