@@ -186,7 +186,7 @@ h1 {
 
 .footer {
   width: 100%;
-  height: 30vh;
+  height: 25vh;
   margin-top: 100px;
   background-color: #222222;
   clip-path: polygon(0 1%, 100% 12%, 100% 100%, 0% 100%);
