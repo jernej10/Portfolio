@@ -20,6 +20,9 @@ html::-webkit-scrollbar-thumb {
 html::-webkit-scrollbar-track {
   background-color: #505050;
 }
+body {
+  overflow-x: hidden;
+}
 
 .intro {
   position: relative;
@@ -111,6 +114,9 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
+.mb {
+  margin-bottom: 30px;
+}
 
 .bold {
   font-weight: bolder;
@@ -121,7 +127,7 @@ h1 {
   background-color: var(--custom-green);
   border-radius: 20px;
   margin: 30px 0;
-  padding: 10px;
+  padding: 15px;
   width: 130px;
 }
 .green-button:hover {

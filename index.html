@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style/mobile.css" />
   </head>
   <body>
@@ -25,6 +26,8 @@
         xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         version="1.1"
+        data-aos="zoom-out-left"
+        data-aos-duration="1000"
       >
         <g transform="translate(1200.6950457925647 -26.30442868990032)">
           <path
@@ -33,7 +36,7 @@
           ></path>
         </g>
       </svg>
-      <div class="text-container">
+      <div class="text-container" data-aos="fade-right">
         <h1>Heyy!</h1>
         <p>
           I'm a <span class="higlight">software development</span> student from
@@ -42,7 +45,7 @@
         <p class="small">Take a look around at my portfolio...</p>
       </div>
     </div>
-    <div class="card-container">
+    <div class="card-container" data-aos="flip-up" data-aos-duration="1000">
       <div class="card">
         <div class="circle">
           <svg
@@ -77,7 +80,7 @@
           </svg>
         </div>
         <h3>Front-End</h3>
-        <p>HTML, CSS, JS, React</p>
+        <p>HTML, CSS, React</p>
       </div>
       <div class="card">
         <div class="circle">
@@ -104,15 +107,15 @@
         src="./images/programming.png"
         alt="Programming on computer"
       />
-      <div class="about-me-text">
+      <div class="about-me-text" data-aos="fade-left">
         <h2>About Me</h2>
         <small class="higlight mb">&#60;Jernej/&#62;</small>
         <p>
           I have been programming for the past
           <span class="bold">5 years</span>. I am familiar with a variety of
           programming languages such as
-          <span class="bold">Java, JavaScript, C#</span> and I am always adding
-          new skills to my repertoire.
+          <span class="bold">Java, JavaScript, C#, Python</span> and I am always
+          adding new skills to my repertoire.
         </p>
         <a class="green-button" href="#projects-container"
           >My projects &darr;</a
@@ -126,7 +129,7 @@
     </div>
 
     <div id="projects-container">
-      <div class="project">
+      <div class="project" data-aos="zoom-in-right">
         <svg
           class="icon"
           stroke="currentColor"
@@ -150,7 +153,7 @@
         <button class="more-btn">More ></button>
       </div>
 
-      <div class="project">
+      <div class="project" data-aos="zoom-in-left">
         <svg
           class="icon"
           stroke="currentColor"
@@ -220,6 +223,9 @@
     <div id="particles-js"></div>
     <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="skript.js"></script>
   </body>
 </html>

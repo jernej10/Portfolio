@@ -63,3 +63,6 @@ update = function () {
   tAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
+// AOS animations
+AOS.init();
