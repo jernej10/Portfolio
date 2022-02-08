@@ -1,3 +1,6 @@
+// AOS animations
+AOS.init();
+
 particlesJS("particles-js", {
   particles: {
     number: {
@@ -63,6 +66,3 @@ update = function () {
   tAnimationFrame(update);
 };
 requestAnimationFrame(update);
-
-// AOS animations
-AOS.init();
