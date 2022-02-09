@@ -167,6 +167,8 @@ h1 {
   position: absolute;
   right: -50px;
   bottom: 30px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .more-btn:hover {
