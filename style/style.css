@@ -125,7 +125,7 @@ h1 {
   color: white;
   text-decoration: none;
   background-color: var(--custom-green);
-  border-radius: 20px;
+  border-radius: 10px;
   margin: 30px 0;
   padding: 15px;
   width: 130px;
@@ -146,6 +146,7 @@ h1 {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .icon {
@@ -158,15 +159,15 @@ h1 {
 }
 
 .more-btn {
-  border-radius: 20px;
+  border-radius: 10px;
   border: none;
   background-color: var(--custom-green);
   color: white;
   padding: 10px;
   width: 100px;
   position: absolute;
-  right: -50px;
-  bottom: 30px;
+  right: 0px;
+  bottom: 0px;
   text-align: center;
   text-decoration: none;
 }
